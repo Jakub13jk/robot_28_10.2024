@@ -22,6 +22,7 @@ Test empik
         append to list    ${lista}    ${element.text}
     END
 
+
     list should contain value    ${lista}   5 Red Shirt
 
     sleep    5
